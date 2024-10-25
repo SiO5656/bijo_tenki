@@ -9,7 +9,7 @@ interface ShareButtonProps {
 
 export const ShareButton: React.FC<ShareButtonProps> = ({ message, imageUrl }) => {
   const handleShare = () => {
-    const tweetText = encodeURIComponent(`${message}\n\n画像: ${imageUrl}\n\n#美人天気24 #AI天気予報`);
+    const tweetText = encodeURIComponent(`${message}\n\n画像: ${imageUrl}\n\n#AI美人天気`);
     window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
   };
 
