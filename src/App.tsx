@@ -65,7 +65,7 @@ function App() {
         <div className="text-center mb-6">
           <div className="flex items-center justify-center gap-3">
             <CloudSun className="w-10 h-10 text-white" />
-            <h1 className="text-4xl font-bold text-white tracking-tight">AI美女天気</h1>
+            <h1 className="text-4xl font-bold text-white tracking-tight">AI美人天気</h1>
           </div>
         </div>
 
